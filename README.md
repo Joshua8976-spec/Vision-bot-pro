@@ -14,7 +14,7 @@ Object detection · Face tracking · Obstacle avoidance · Robotic arm · Wi-Fi 
 
 ## 🧠 Overview
 
-Vision Bot Pro is a fully autonomous AI-powered robot built from scratch using a **Raspberry Pi 5 4GB** as the central processing unit and an **Arduino UNO R3** for real-time motor control.
+Vision Bot Pro is a fully autonomous AI-powered robot built from scratch using a **Raspberry Pi 5 8GB** as the central processing unit and an **Arduino UNO R3** for real-time motor control.
 
 The robot combines computer vision, machine learning, and embedded systems to perform:
 - Real-time **object detection and following** using OpenCV
@@ -31,13 +31,13 @@ All AI inference runs **completely on-device** — no cloud, no internet require
 
 | Component | Purpose |
 |---|---|
-| Raspberry Pi 5 4GB | Main brain — Python + AI inference |
+| Raspberry Pi 5 8GB | Main brain — Python + AI inference |
 | Arduino UNO R3 | Real-time motor + servo control |
 | Pi Camera Module V2 | Vision input |
 | L298N Motor Driver | DC wheel motor control |
 | DC Gear Motors x2 | Wheel movement |
 | HC-SR04 Ultrasonic Sensor | Obstacle detection |
-| SG90 Servo Motors x3 | Robotic arm (base, joint, gripper) |
+| MG90S Servo Motors x3 | Robotic arm (base, joint, gripper) |
 | PCA9685 Servo Driver | I2C servo control from Pi |
 | 840-point Breadboard | Prototyping |
 | 9V Battery Pack | Powers motors via L298N |
