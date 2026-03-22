@@ -188,7 +188,7 @@ python phase3_ai_arm/tflite/object_detection.py
 |---|---|
 | [Blueprint PDF](docs/VisionBotPro_Blueprint.pdf) | Full project plan, hardware, software, goals |
 | [Circuit Diagram PDF](docs/VisionBotPro_CircuitDiagram.pdf) | Complete wiring reference |
-| [Correction Notes PDF](docs/VisionBotPro_CircuitDiagram_Corrected.pdf) | Circuit diagram annotations |
+
 
 ---
 
